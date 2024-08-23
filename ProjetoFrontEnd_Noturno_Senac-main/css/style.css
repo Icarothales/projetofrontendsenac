@@ -3,7 +3,10 @@
     padding: 0;
     
 }
-
+header{
+    background-color: chartreuse;
+    text-align: left;
+}
 body{
     padding: 0 15px 0 15px;
     margin-left: 100px;
@@ -12,6 +15,20 @@ body{
     padding: 30px;
     border-radius: 15px;
 }
+
+.main img{
+    width: 100%;
+    margin-top: 15%;
+
+
+}
+.texto{
+    color: darkred;
+
+}
+   
+
+
 
 input{
     background-color: whitesmoke;
@@ -50,6 +67,18 @@ button{
     display: inline-flex;
     align-items: center;
 }
+
+.container2 {
+    background-color: #f7f3f3;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.col-sm-6{
+flex: 1 1 50%;
+
+}
+
 
 .card1{
 background-color: #655050;
