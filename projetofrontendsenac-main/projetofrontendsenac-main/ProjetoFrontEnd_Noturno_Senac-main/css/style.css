@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    background-color: chartreuse;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    
+
+    
+
+}
+
+.logo{
+display: flex;
+
+
+}
+
+nav{
+ display: flex;
+ align-items: center;
+ gap: 5%;
+ margin-right: 5%;
+ 
+
+
+
+}
+nav a{                          /* MENU DE NAVEGACAO COM A ANCORA*/
+    text-decoration: none;      /* TIRAR O SUBLINHADO t*/
+    font-size: larger;
+    color: darkred;
+    background-color: aquamarine;
+   
+    
+
+
+}
+
+
+body{
+    padding: 0 15px 0 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.main img{
+    width: 100%;
+    margin-top: 15%;
+
+
+}
+.texto{
+    color: darkred;
+
+}
+   
+
+
+
+input{
+    background-color: whitesmoke;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+textarea{
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+button{
+    margin-top: 10px;
+    width: 50%;
+    height: 30px;
+    border-radius: 5px;
+    border-color: green;
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.container{
+    background-color: black;
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 5%;
+
+}
+
+.container2 {
+    background-color: #f7f3f3;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.col-sm-6{
+flex: 1 1 50%;
+
+}
+
+
+.card1{
+background-color: #655050;
+padding: 20px;
+margin: 20px;
+width: 350px;  
+text-align: center;
+border: 2px solid red;
+
+.card1 button{
+    border-radius: 15px;
+}
+.card1 h4{
+    color: brown;
+    
+
+}
+
+img{
+    border-radius: 20px;
+
+}
+
+}
+
+.card2{
+    background-color: #655050;
+    padding: 20px;
+    margin: 20px;
+    width: 350px;
+    text-align: center; 
+    border: 2px solid red;  
+    
+    }
+
+.card3{
+        background-color: #655050;
+        padding: 20px;
+        margin: 20px;
+        width: 350px; 
+        text-align: center;  
+        border: 2px solid red;
+        }
+
+
+
+.texto01{
+
+        padding: 20%;
+        background-repeat: no-repeat;
+        background-image: url(https://static.vecteezy.com/ti/fotos-gratis/p1/35943137-ai-gerado-futurista-central-processador-unidade-poderoso-quantum-cpu-placa-mae-ai-gerado-gratis-foto.jpg);
+}
+
+
+
+
