@@ -66,6 +66,7 @@ button{
     background-color: black;
     display: inline-flex;
     align-items: center;
+    
 }
 
 .container2 {
@@ -118,4 +119,21 @@ img{
         width: 350px; 
         text-align: center;  
         
+        }
+
+        .container4{
+            display: flex;
+            padding: 5%;
+            background-image: url(/images/tecnologia\ na\ med.jfif);
+            background-repeat: no-repeat;
+        background-size: cover;
+            
+            
+
+        }
+
+        .container4 img{
+            width: 100%;
+            padding: 5%;
+            
         }
