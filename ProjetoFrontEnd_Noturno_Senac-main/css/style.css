@@ -239,3 +239,42 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 .col-md-3{
     justify-content: flex-start;
 }
+
+
+
+.container_tabela {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+}
+
+.Tabela1 , .Tabela2{
+    flex: 1;
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+th, td{
+    border-bottom: solid 1px #909090; 
+    padding: 10px;
+    text-align: left;
+
+}
+
+td:last-child {
+    background-color: #ddd;
+}
+
+th:last-child{
+    background-color: #ddd;
+}
